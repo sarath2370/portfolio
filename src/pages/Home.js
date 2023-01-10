@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
@@ -13,36 +12,42 @@ function Home() {
             <h2> Hi, My name is Sarath. </h2>
             <div className='prompt'>
                 <p>
-                  a software developer with a passion for learning and creating.
+                  A Computer Science Student with a passion to learn and create
                 </p>
-                <BsLinkedin/>
-                <BsGithub />
-                <MdEmail />
+                <a target="_blank" href="https://www.linkedin.com/in/sarath-sajiv-menon2370/"><BsLinkedin/></a>
+                
+                <a target="_blank" href="https://github.com/sarath2370"><BsGithub/></a>
+                
             </div>
         </div>
         <div className='skills'>
               <h1>Skills</h1>
               <ol className='list'>
                 <li className="item">
-                  <h2> Front-End</h2>
-                  <span>
-                    ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-                    Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
-                  </span>
-                </li>
-                <li className="item">
-                  <h2>Back-End</h2>
-                  <span>
-                    NodeJS, Java Spring, .NET, ExpressJS, GraphQL, ApolloServer,
-                    MySQL, MongoDB, DynamoDB, DigitalOcean, AWS S3, MS SQL
-                  </span>
-                </li>
-                <li className="item">
                   <h2>Languages</h2>
                   <span>
-                    JavaScript, Java, Python, C#, C, C++, TypeScript, Go
+                    JavaScript, Java, Python, C, C++, Go, LATex
                   </span>
                 </li>
+                <li className="item">
+                  <h2>Technologies Used</h2>
+                  <span>
+                    VS Code, Pycharm, PIP, GitHub , NPM, Yarn
+                  </span>
+                </li>
+                <li className="item">
+                  <h2>Languages Spoken</h2>
+                  <span>
+                    English (Fluent), French (Intermediate),Hindi (Intermediate), Malayalam (Spoken)
+                  </span>
+                </li>
+                <li className="item">
+                  <h2>Soft Skills</h2>
+                  <span>
+                    Public Speaking, Team Player, Organised
+                  </span>
+                </li>
+                
               </ol>
         </div>
     </div>
