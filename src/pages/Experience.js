@@ -28,6 +28,7 @@ function Experience() {
           </h3>
           <p></p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
           date='2020 - ongoing'
@@ -37,8 +38,9 @@ function Experience() {
           <h3 className='vertical-timeline-element-title'> 
             McMcaster Univeristy, Hamilton, Ontario
           </h3>
-          <p></p>
+          <p>Courses: Operating Systems, Algorithms and Complexity, Linear Optimization</p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement 
           className='vertical-timeline-element--education' 
           date='2022 Sept - 2022 Dec'
@@ -48,7 +50,25 @@ function Experience() {
           <h3 className='vertical-timeline-element-title'> 
             Open Education Research Assistant 
           </h3>
-          <p></p>
+          <p>Department of Computing and Software - McMaster University</p>
+          <p>Supported the development of the content of a First year Course Textbook used by over 120 students each academic year (Course: 1XD3 Design Thinking).</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--education' 
+          date='2023 Jan - ongoing'
+          iconStyle={{background :"#e9d35b", color: "#3e497a" }}
+          icon = {<IoSchoolOutline/>}
+        >
+          <h3 className='vertical-timeline-element-title'> 
+            Teaching Assistant 
+          </h3>
+          <p>Department of Computing and Software - McMaster University</p>
+          <p>
+            Mentoring Student Teams of 4 in Design Thinking projects that tasks them to survey and interview potential target audiences and build web applications on ELM to solve a consumer problem
+          </p>
+          <p>
+            Performed Team-lead like duties, with regular follow-ups on Group members, progress reports on the project and Troubleshooting sessions to reach feasible solutions
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
