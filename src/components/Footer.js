@@ -8,8 +8,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'> 
-            <BsLinkedin />
-            <BsGithub />
+            <a target="_blank" href="https://www.linkedin.com/in/sarath-sajiv-menon2370/"><BsLinkedin/></a>
+            
+            <a target="_blank" href="https://github.com/sarath2370"><BsGithub/></a>
         </div>
         <p> &copy; 2022 sarathsmenon.com </p>
     </div>
